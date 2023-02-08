@@ -1,0 +1,77 @@
+:root {
+  --titulo: #034b9e;
+  --rojoLegend: #413b3b;
+  --fondo: #fafafa;
+  --botonRojo: #e8bebe;
+  --input: #f9f9f9;
+}
+body {
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
+}
+p {
+  font-weight: 100;
+}
+h1 {
+  text-align: center;
+  color: var(--titulo);
+}
+
+fieldset {
+  background-color: var(--fondo);
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+  margin: 20px 0 20px 0;
+  padding: 2rem;
+}
+
+legend {
+  font-weight: bold;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#compania {
+  margin-right: 20px;
+}
+
+.btnrojo {
+  background-color: var(--botonRojo);
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  text-shadow: 0px 1px 0px #b23e35;
+}
+.btnrojo:hover {
+  background-color: #ff8f89;
+}
+@media screen and (max-width: 867px) {
+  body {
+    width: 70%;
+  }
+}
